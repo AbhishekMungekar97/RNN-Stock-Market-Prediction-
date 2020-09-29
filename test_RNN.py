@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 if __name__ == "__main__":
     
     #Load the model of choice
-    model = keras.models.load_model('models/20867324_RNN_model.h5')
+    model = keras.models.load_model('models/trained_RNN_model.h5')
     
     #Accesing the training dataset to perform RNN
     test_data = pd.read_csv("data/test_data_RNN.csv")
