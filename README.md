@@ -1,1 +1,7 @@
-## RNN for (Stock-Market-Prediction)
+## RNN's for Stock Market Prediction (LSTM)
+
+### - In this post, I will be essentially dealing with how RNN's have been in the limelight for stock market forecasting in recent times ( Please refer to the link below to access the code written in python).
+### - Usually while forecasting stock market prices, we mainly deal with four major features, the closing price of the stock on the previous day, the opening price of the same stock on the following day, the high and low prices for each of these stocks.
+### - As you must have guessed it by now that correctly predicting the opening prices of the stock based on the above features has been the typical scenario for quite sometime. With the introduction of RNN's we can add time as an additional factor, to help us achieve more accurate predictions and in the process, building a much more robust model.
+### - In the following link I have developed a very simplistic sliding window concept, where the four different features mentioned above, are memorized by the model over the span of three prior days to predict the opening price of the stock on the fourth day. In other words, each node of the RNN takes into account 12 (4*3) different features during the prediction phase. 
+### - Note : I have developed the files in such a way that you can access them directly by running them on your terminal window ( Command shell ) to acess the model's predictions directly.
